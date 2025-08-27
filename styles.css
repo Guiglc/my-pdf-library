@@ -3,6 +3,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
+    height: 100vh;
+    /* 让 body 充满整个视口高度 */
+    display: flex;
+    flex-direction: column;
+    /* 头部和主体部分垂直排列 */
 }
 
 header {
@@ -10,21 +15,28 @@ header {
     color: white;
     padding: 1rem;
     text-align: center;
+    flex-shrink: 0;
+    /* 头部不收缩 */
 }
 
 main {
     display: flex;
-    height: calc(100vh - 60px);
-    /* 减去 header 的高度 */
+    flex: 1;
+    /* 主体部分占据剩余所有空间 */
+    overflow: hidden;
+    /* 防止内部内容溢出导致整体出现滚动条 */
 }
 
 /* 左侧列表样式 */
-#pdf-list-container {
+#pdf-list-sidebar {
     width: 300px;
+    /* 固定宽度 */
     background: white;
     padding: 1rem;
     border-right: 1px solid #ddd;
     overflow-y: auto;
+    /* 如果列表很长，允许滚动 */
+    flex-shrink: 0;
 }
 
 #book-list {
@@ -33,69 +45,38 @@ main {
 }
 
 #book-list li {
-    padding: 0.5rem;
+    padding: 0.75rem 0.5rem;
     border-bottom: 1px solid #eee;
     cursor: pointer;
+    transition: background-color 0.2s ease;
 }
 
 #book-list li:hover {
     background-color: #f0f7ff;
 }
 
-/* 右侧查看器样式 */
-#pdf-viewer-container {
+/* 右侧查看器区域样式 */
+#pdf-viewer-area {
     flex: 1;
+    /* 占据剩余的全部宽度 */
     display: flex;
     flex-direction: column;
     background-color: #eee;
+    position: relative;
 }
 
-.hidden {
-    display: none !important;
-}
-
-#viewer-header {
+#pdf-placeholder {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0.5rem 1rem;
-    background: #2c3e50;
-    color: white;
-}
-
-#close-pdf-btn {
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
+    height: 100%;
+    color: #666;
     font-size: 1.2rem;
 }
 
-#pdf-controls {
-    padding: 0.5rem;
-    text-align: center;
-    background: #ddd;
-}
-
-#pdf-canvas-container {
-    flex: 1;
-    overflow: auto;
-    text-align: center;
-    padding: 1rem;
-}
-
-#pdf-canvas {
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#loader {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 2rem;
-    border-radius: 5px;
+#advanced-pdf-viewer {
+    width: 100%;
+    height: 100%;
+    display: none;
+    /* 初始隐藏 */
 }
