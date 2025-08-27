@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的 PDF 图书馆</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- 引入 PDF.js 的查看器库 (核心代码和样式) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf_viewer.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>📚 我的 PDF 图书馆</h1>
+    </header>
+
+    <main>
+        <!-- 左侧：PDF 列表 -->
+        <section id="pdf-list-container">
+            <h2>书籍列表</h2>
+            <div id="loading-text">正在加载书单...</div>
+            <ul id="book-list"></ul>
+        </section>
+
+        <!-- 右侧：PDF 查看器 -->
+        <section id="pdf-viewer-container" class="hidden">
+            <div id="viewer-header">
+                <button id="close-pdf-btn">× 关闭</button>
+                <span id="current-pdf-title"></span>
+            </div>
+            <div id="pdf-controls">
+                <button id="prev-page">上一页</button>
+                <span>页码: <span id="page-num">1</span> / <span id="page-count">0</span></span>
+                <button id="next-page">下一页</button>
+            </div>
+            <!-- PDF.js 需要这个有特定类名的容器 -->
+            <div id="pdf-canvas-container">
+                <canvas id="pdf-canvas"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <!-- 加载指示器 -->
+    <div id="loader" class="hidden">加载中...</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

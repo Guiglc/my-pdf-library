@@ -1,0 +1,101 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - 60px);
+    /* 减去 header 的高度 */
+}
+
+/* 左侧列表样式 */
+#pdf-list-container {
+    width: 300px;
+    background: white;
+    padding: 1rem;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+}
+
+#book-list {
+    list-style: none;
+    padding: 0;
+}
+
+#book-list li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+#book-list li:hover {
+    background-color: #f0f7ff;
+}
+
+/* 右侧查看器样式 */
+#pdf-viewer-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#viewer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: #2c3e50;
+    color: white;
+}
+
+#close-pdf-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+#pdf-controls {
+    padding: 0.5rem;
+    text-align: center;
+    background: #ddd;
+}
+
+#pdf-canvas-container {
+    flex: 1;
+    overflow: auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+#pdf-canvas {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 2rem;
+    border-radius: 5px;
+}
