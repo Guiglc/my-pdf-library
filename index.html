@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的 PDF 图书馆</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- 我们不再需要直接引入 pdf.js 的库，因为查看器会自己处理 -->
 </head>
 
 <body>
@@ -24,12 +23,10 @@
 
         <!-- 右侧：PDF 查看器区域 -->
         <section id="pdf-viewer-area">
-            <!-- 初始状态显示一个提示或空白 -->
             <div id="pdf-placeholder">
                 <p>请从左侧选择一个 PDF 文件开始阅读。</p>
             </div>
-            <!-- 这个 iframe 将用于嵌入功能完整的 PDF.js 查看器 -->
-            <iframe id="advanced-pdf-viewer" frameborder="0" style="display: none;"></iframe>
+            <iframe id="pdf-viewer" frameborder="0" style="display: none;"></iframe>
         </section>
     </main>
 

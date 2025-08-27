@@ -1,18 +1,18 @@
-// === 配置区域 === //
+// === 配置区域 ===
 const pdfRepoOwner = 'Guiglc';
 const pdfRepoName = 'ebook-pdf';
-// =============== //
+// ==================
 
-// 获取DOM元素
+// DOM 元素
 const bookListContainer = document.getElementById('book-list');
 const loadingText = document.getElementById('loading-text');
 const pdfPlaceholder = document.getElementById('pdf-placeholder');
-const advancedPdfViewer = document.getElementById('advanced-pdf-viewer');
+const pdfViewer = document.getElementById('pdf-viewer');
 
-// 1. 页面加载完成后，获取PDF列表
+// 页面加载完成后获取 PDF 列表
 document.addEventListener('DOMContentLoaded', fetchPdfList);
 
-// 2. 从GitHub API获取PDF文件列表
+// 获取 GitHub 仓库 PDF 列表
 async function fetchPdfList() {
     try {
         loadingText.textContent = '正在加载书单...';
@@ -32,7 +32,7 @@ async function fetchPdfList() {
     }
 }
 
-// 3. 将PDF列表渲染到页面上
+// 渲染 PDF 列表
 function renderPdfList(pdfFiles) {
     if (pdfFiles.length === 0) {
         bookListContainer.innerHTML = '<li>未找到PDF文件</li>';
@@ -41,29 +41,16 @@ function renderPdfList(pdfFiles) {
 
     bookListContainer.innerHTML = '';
     pdfFiles.forEach(file => {
-        const listItem = document.createElement('li');
-        listItem.textContent = file.name;
-        listItem.addEventListener('click', () => {
-            openPdfWithOfficialViewer(file.download_url);
-        });
-        bookListContainer.appendChild(listItem);
+        const li = document.createElement('li');
+        li.textContent = file.name;
+        li.addEventListener('click', () => openPdf(file.download_url));
+        bookListContainer.appendChild(li);
     });
 }
 
-// 4. 使用官方查看器打开PDF
-function openPdfWithOfficialViewer(pdfUrl) {
-    // 编码PDF的URL，因为它可能包含特殊字符
-    const encodedPdfUrl = encodeURIComponent(pdfUrl);
-
-    // 构建查看器的URL。
-    // 注意：我们使用 `viewer.html` 的绝对路径，指向我们复制过来的 `/web/` 目录下的文件。
-    // `file` 参数指定要打开的PDF文件的URL。
-    const viewerUrl = `./web/viewer.html?file=${encodedPdfUrl}`;
-
-    // 隐藏占位符，显示iframe
+// 打开 PDF（占满右侧区域）
+function openPdf(url) {
     pdfPlaceholder.style.display = 'none';
-    advancedPdfViewer.style.display = 'block';
-
-    // 将iframe的src设置为官方查看器的URL
-    advancedPdfViewer.src = viewerUrl;
+    pdfViewer.style.display = 'block';
+    pdfViewer.src = url;
 }
