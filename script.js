@@ -1,6 +1,8 @@
 // === 配置区域 ===
 const pdfRepoOwner = 'Guiglc';
 const pdfRepoName = 'ebook-pdf';
+// 你的 GitHub Pages URL
+const pdfPagesBaseUrl = `https://${pdfRepoOwner}.github.io/${pdfRepoName}/`;
 // ==================
 
 // DOM 元素
@@ -21,6 +23,7 @@ async function fetchPdfList() {
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const data = await response.json();
 
+        // 只保留 PDF 文件
         const pdfFiles = data.filter(item => item.type === 'file' && item.name.toLowerCase().endsWith('.pdf'));
 
         loadingText.style.display = 'none';
@@ -43,14 +46,14 @@ function renderPdfList(pdfFiles) {
     pdfFiles.forEach(file => {
         const li = document.createElement('li');
         li.textContent = file.name;
-        li.addEventListener('click', () => openPdf(file.download_url));
+        li.addEventListener('click', () => openPdf(file.name));
         bookListContainer.appendChild(li);
     });
 }
 
-// 打开 PDF（占满右侧区域）
-function openPdf(url) {
+// 打开 PDF（右侧 iframe 占满区域）
+function openPdf(fileName) {
     pdfPlaceholder.style.display = 'none';
     pdfViewer.style.display = 'block';
-    pdfViewer.src = url;
+    pdfViewer.src = pdfPagesBaseUrl + encodeURIComponent(fileName);
 }
