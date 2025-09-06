@@ -1,59 +1,49 @@
-// === 配置区域 ===
-const pdfRepoOwner = 'Guiglc';
-const pdfRepoName = 'ebook-pdf';
-// 你的 GitHub Pages URL
-const pdfPagesBaseUrl = `https://${pdfRepoOwner}.github.io/${pdfRepoName}/`;
-// ==================
+const JSON_FILE = 'ebook_list.json'; // 本地 JSON 文件
+const PDF_BASE_URL = 'https://raw.githubusercontent.com/Guiglc/ebook-pdf/main/';
 
-// DOM 元素
 const bookListContainer = document.getElementById('book-list');
-const loadingText = document.getElementById('loading-text');
-const pdfPlaceholder = document.getElementById('pdf-placeholder');
-const pdfViewer = document.getElementById('pdf-viewer');
 
-// 页面加载完成后获取 PDF 列表
-document.addEventListener('DOMContentLoaded', fetchPdfList);
-
-// 获取 GitHub 仓库 PDF 列表
-async function fetchPdfList() {
-    try {
-        loadingText.textContent = '正在加载书单...';
-        const apiUrl = `https://api.github.com/repos/${pdfRepoOwner}/${pdfRepoName}/contents/`;
-        const response = await fetch(apiUrl);
-        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-        const data = await response.json();
-
-        // 只保留 PDF 文件
-        const pdfFiles = data.filter(item => item.type === 'file' && item.name.toLowerCase().endsWith('.pdf'));
-
-        loadingText.style.display = 'none';
-        renderPdfList(pdfFiles);
-
-    } catch (error) {
-        console.error('获取PDF列表失败:', error);
-        loadingText.textContent = '加载失败: ' + error.message;
-    }
-}
-
-// 渲染 PDF 列表
-function renderPdfList(pdfFiles) {
-    if (pdfFiles.length === 0) {
-        bookListContainer.innerHTML = '<li>未找到PDF文件</li>';
-        return;
-    }
-
-    bookListContainer.innerHTML = '';
-    pdfFiles.forEach(file => {
-        const li = document.createElement('li');
-        li.textContent = file.name;
-        li.addEventListener('click', () => openPdf(file.name));
-        bookListContainer.appendChild(li);
+fetch(JSON_FILE)
+    .then(res => {
+        if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+        return res.json();
+    })
+    .then(data => renderTable(data))
+    .catch(err => {
+        bookListContainer.innerHTML = `<tr><td colspan="4" style="text-align:center;">加载失败: ${err.message}</td></tr>`;
+        console.error(err);
     });
-}
 
-// 打开 PDF（右侧 iframe 占满区域）
-function openPdf(fileName) {
-    pdfPlaceholder.style.display = 'none';
-    pdfViewer.style.display = 'block';
-    pdfViewer.src = pdfPagesBaseUrl + encodeURIComponent(fileName);
+function renderTable(data) {
+    bookListContainer.innerHTML = '';
+    data.forEach(item => {
+        const row = document.createElement('tr');
+
+        // 分类
+        const categoryCell = document.createElement('td');
+        categoryCell.textContent = item.category;
+        row.appendChild(categoryCell);
+
+        // 书名
+        const nameCell = document.createElement('td');
+        const link = document.createElement('a');
+        link.textContent = item.name;
+        const pdfPath = `${PDF_BASE_URL}${encodeURIComponent(item.category)}/${encodeURIComponent(item.name)}`;
+        link.href = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(pdfPath)}`;
+        link.target = '_blank';
+        nameCell.appendChild(link);
+        row.appendChild(nameCell);
+
+        // 打分
+        const scoreCell = document.createElement('td');
+        scoreCell.textContent = item.score;
+        row.appendChild(scoreCell);
+
+        // 加入时间
+        const dateCell = document.createElement('td');
+        dateCell.textContent = item.date || '';
+        row.appendChild(dateCell);
+
+        bookListContainer.appendChild(row);
+    });
 }

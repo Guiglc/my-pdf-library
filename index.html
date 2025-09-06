@@ -5,31 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的 PDF 图书馆</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 2000px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- <header>
-        <h1>📚 我的 PDF 图书馆</h1>
-    </header> -->
-
-    <main>
-        <!-- 左侧：PDF 列表 -->
-        <aside id="pdf-list-sidebar">
-            <h2>书籍列表</h2>
-            <div id="loading-text">正在加载书单...</div>
-            <ul id="book-list"></ul>
-        </aside>
-
-        <!-- 右侧：PDF 查看器区域 -->
-        <section id="pdf-viewer-area">
-            <div id="pdf-placeholder">
-                <p>请从左侧选择一个 PDF 文件开始阅读。</p>
-            </div>
-            <iframe id="pdf-viewer" frameborder="0" style="display: none;"></iframe>
-        </section>
-    </main>
-
+    <h1 style="text-align:center;">📚 我的 PDF 图书馆</h1>
+    <table id="book-table">
+        <thead>
+            <tr>
+                <th>分类</th>
+                <th>书名</th>
+                <th>打分</th>
+                <th>加入时间</th>
+            </tr>
+        </thead>
+        <tbody id="book-list">
+            <tr>
+                <td colspan="4" style="text-align:center;">正在加载...</td>
+            </tr>
+        </tbody>
+    </table>
     <script src="script.js"></script>
 </body>
 
