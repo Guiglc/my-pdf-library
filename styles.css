@@ -1,0 +1,66 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background: #f9f9f9;
+    color: #333;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.4em;
+    color: #444;
+}
+
+table.book-table {
+    width: 50%;
+    margin: 0 auto 30px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table.book-table th,
+table.book-table td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+table.book-table th {
+    background: #f2f2f2;
+}
+
+table.book-table tr:nth-child(even) {
+    background: #fafafa;
+}
+
+table.book-table a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+table.book-table a:hover {
+    text-decoration: underline;
+}
+
+.book-table th:nth-child(1),
+.book-table td:nth-child(1) {
+    width: 80%;
+    /* 书名 */
+}
+
+.book-table th:nth-child(2),
+.book-table td:nth-child(2) {
+    width: 5%;
+    /* 评分 */
+    text-align: center;
+}
+
+.book-table th:nth-child(3),
+.book-table td:nth-child(3) {
+    width: 15%;
+    /* 加入时间 */
+    text-align: center;
+}

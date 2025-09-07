@@ -5,61 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的 PDF 图书馆</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        table {
-            border-collapse: collapse;
-            margin: 20px auto;
-            width: 80%;
-            max-width: 2000px;
-        }
-
-        th,
-        td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-
-        tr:hover {
-            background-color: #f9f9f9;
-        }
-
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1 style="text-align:center;">📚 我的 PDF 图书馆</h1>
-    <table id="book-table">
-        <thead>
-            <tr>
-                <th>分类</th>
-                <th>书名</th>
-                <th>打分</th>
-                <th>加入时间</th>
-            </tr>
-        </thead>
-        <tbody id="book-list">
-            <tr>
-                <td colspan="4" style="text-align:center;">正在加载...</td>
-            </tr>
-        </tbody>
-    </table>
+    <main id="library"></main>
     <script src="script.js"></script>
 </body>
 
