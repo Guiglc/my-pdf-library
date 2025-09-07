@@ -1,85 +1,91 @@
 [
   {
     "category": "Design & Layout",
-    "name": "Jens Lienig, Juergen Scheible - Fundamentals of Layout Design for Electronic Circuits-Springer Nature Switzerland AG (2020).pdf",
+    "name": "Fundamentals of Layout Design for Electronic Circuits_[英文]_[欧]Lienig J, Scheible J_[2020].pdf",
     "score": 5,
     "date": "2025-09-01 23:16:25"
   },
   {
     "category": "其他",
-    "name": "Xiao, Hong - Introduction to Semiconductor Manufacturing Technology (2nd Edition) (2012, SPIE) - libgen.li.pdf",
+    "name": "Introduction to Semiconductor Manufacturing Technology(Second Edition)_[英文]_[美]Xiao H_[2012].pdf",
     "score": 5,
     "date": "2025-09-01 23:16:25"
   },
   {
     "category": "存储专著",
-    "name": "Andrei Pavlov - CMOS SRAM Circuit Design and Parametric Test in Nano-Scaled Technologies_ Process-Aware SRAM Design and Test (2008, Springer) - libgen.li.pdf",
+    "name": "Circuit-Technology Co-Optimization of SRAM Design in Advanced CMOS Nodes_[英文]_[欧]Liu H-H, Catthoor F_[2025].pdf",
     "score": 5,
     "date": "2025-09-01 23:16:25"
   },
   {
     "category": "存储专著",
-    "name": "Bruce Jacob, Spencer Ng, David Wang - Memory systems _ cache, DRAM, disk-Morgan-Kaufmann (2007).pdf",
+    "name": "CMOS SRAM Circuit Design and Parametric Test in Nano-Scaled Technologies_[英文]_[欧]Pavlov A, Sachdev M_[2008].pdf",
     "score": 5,
     "date": "2025-09-01 23:16:25"
   },
   {
     "category": "存储专著",
-    "name": "Circuit-Technology Co-Optimization of SRAM Design in Advanced CMOS Nodes— (Hsiao-Hsuan Liu, Francky Catthoor) (Z-Library).pdf",
+    "name": "Nanometer Variation-Tolerant SRAM_[英文]_[欧]Abu-Rahma MH, Anis M_[2013].pdf",
     "score": 5,
     "date": "2025-09-01 23:16:25"
   },
   {
     "category": "存储专著",
-    "name": "Jawar Singh, Saraju P. Mohanty, Dhiraj K. Pradhan (auth.) - Robust SRAM Designs and Analysis (2013, Springer) [10.1007_978-1-4614-0818-5] - libgen.li.pdf",
+    "name": "Robust SRAM Designs and Analysis_[英文]_[欧]Singh J, Mohanty SP, Pradhan DK_[2013].pdf",
     "score": 5,
     "date": "2025-09-01 23:16:25"
   },
   {
-    "category": "存储专著",
-    "name": "Mohamed H. Abu-Rahma, Mohab Anis (auth.) - Nanometer Variation-Tolerant SRAM_ Circuits and Statistical Design for Yield (2013, Springer) [10.1007_978-1-4614-1749-1] - libgen.li.pdf",
+    "category": "学位论文",
+    "name": "Advanced MOSFET Designs and Implications for SRAM Scaling.pdf",
     "score": 5,
     "date": "2025-09-01 23:16:25"
   },
   {
-    "category": "微电子教材",
-    "name": "Behzad Razavi - Fundamentals of Microelectronics (2013, Wiley) - libgen.li.pdf",
-    "score": 5,
-    "date": "2025-09-01 23:16:25"
-  },
-  {
-    "category": "微电子教材",
-    "name": "CMOS Electronics How It Works, How It Fails— (Jaume Segura, Charles F. Hawkins) (Z-Library).pdf",
+    "category": "学位论文",
+    "name": "Large-Scale Variability Characterization and Robust Design Techniques for Nanoscale SRAM.pdf",
     "score": 5,
     "date": "2025-09-01 23:16:25"
   },
   {
     "category": "微电子教材",
-    "name": "Integrated Microelectronic Devices Physics and Modeling— (unknown) (Z-Library).pdf",
+    "name": "CMOS Electronics - how it works, how it fails_[英文]_[美]Segura J, Hawkins CF_[2004].pdf",
     "score": 5,
     "date": "2025-09-01 23:16:25"
   },
   {
     "category": "微电子教材",
-    "name": "Microelectronic Circuit Design, 5th edition (2015).pdf",
+    "name": "CMOS VLSI Design - A Circuits and Systems Perspective(Fourth Edition)_[英文]_[美]Weste NHE, Harris DM_[2011].pdf",
     "score": 5,
     "date": "2025-09-01 23:16:25"
   },
   {
     "category": "微电子教材",
-    "name": "Microelectronic Circuits Analysis and Design, 2nd Edition2nd (Muhammad H. Rashid) (Z-Library).pdf",
+    "name": "Fundamentals of Microelectronics(Second Edition)_[英文]_[美]Razavi B_[2014].pdf",
     "score": 5,
     "date": "2025-09-01 23:16:25"
   },
   {
     "category": "微电子教材",
-    "name": "Neil H. E. Weste, David Money Harris - CMOS VLSI Design_ A Circuits and Systems Perspective (4th Edition)    -Addison Wesley (2010).pdf",
+    "name": "Integrated Microelectronic Devices (First Edition)_[英文]_[美]Alamo JA d_[2018].pdf",
+    "score": 5,
+    "date": "2025-09-01 23:16:25"
+  },
+  {
+    "category": "微电子教材",
+    "name": "Microelectronic Circuit Design (Fifth Edition)_[英文]_[美]Jaeger RC, Blalock TN_[2016].pdf",
+    "score": 5,
+    "date": "2025-09-01 23:16:25"
+  },
+  {
+    "category": "微电子教材",
+    "name": "Microelectronic Circuits - Analysis and Design (2nd Edition)_[英文]_[美]Rashid MH_[2011].pdf",
     "score": 5,
     "date": "2025-09-01 23:16:25"
   },
   {
     "category": "数字电路",
-    "name": "Thomas L. Floyd - Digital Fundamentals, Global Edition (2015, Pearson) - libgen.li.pdf",
+    "name": "Digital Fundamentals(11th Edition)_[英文]_[加]Floyd TL_[2015].pdf",
     "score": 5,
     "date": "2025-09-01 23:16:25"
   },
@@ -94,18 +100,6 @@
     "name": "A Fast Modular Method for True Variation-Aware Separatrix Tracing in Nanoscaled SRAMs.pdf",
     "score": 5,
     "date": "2025-09-02 00:34:44"
-  },
-  {
-    "category": "论文",
-    "name": "Advanced MOSFET Designs and Implications for SRAM Scaling.pdf",
-    "score": 5,
-    "date": "2025-09-01 23:16:25"
-  },
-  {
-    "category": "论文",
-    "name": "Large-Scale Variability Characterization and Robust Design Techniques for Nanoscale SRAM.pdf",
-    "score": 5,
-    "date": "2025-09-01 23:16:25"
   },
   {
     "category": "论文",
