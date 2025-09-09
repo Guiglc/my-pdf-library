@@ -6,6 +6,12 @@
     "date": "2025-09-01 23:16:25"
   },
   {
+    "category": "Display IC",
+    "name": "Liquid Crystal Display Drivers Techniques and Circuits_[英文]_[欧]Cristaldi DJR, Pennisi S, Pulvirenti F_[2009].pdf",
+    "score": 5,
+    "date": "2025-09-09 22:13:32"
+  },
+  {
     "category": "其他",
     "name": "Introduction to Semiconductor Manufacturing Technology(Second Edition)_[英文]_[美]Xiao H_[2012].pdf",
     "score": 5,
@@ -20,6 +26,12 @@
   {
     "category": "存储专著",
     "name": "CMOS SRAM Circuit Design and Parametric Test in Nano-Scaled Technologies_[英文]_[欧]Pavlov A, Sachdev M_[2008].pdf",
+    "score": 5,
+    "date": "2025-09-01 23:16:25"
+  },
+  {
+    "category": "存储专著",
+    "name": "High Performance Memory Testing_[英文]_[欧]Adams RD_[2003].pdf",
     "score": 5,
     "date": "2025-09-01 23:16:25"
   },
@@ -67,6 +79,12 @@
   },
   {
     "category": "微电子教材",
+    "name": "Fundamentals of Modern VLSI Devices (Third Edition)_[英文]_[英]Taur Y, Ning TH_[2022].pdf",
+    "score": 5,
+    "date": "2025-09-09 22:13:32"
+  },
+  {
+    "category": "微电子教材",
     "name": "Integrated Microelectronic Devices (First Edition)_[英文]_[美]Alamo JA d_[2018].pdf",
     "score": 5,
     "date": "2025-09-01 23:16:25"
@@ -93,19 +111,19 @@
     "category": "模拟电路",
     "name": "Analog Design Essentials_[英文]_[欧]Sansen WMC_[2008].pdf",
     "score": 5,
-    "date": ""
+    "date": "2025-09-01 23:16:25"
   },
   {
     "category": "模拟电路",
     "name": "Analysis and Design of Analog Integrated Circuits (5th Edition)_[英文]_[美]Gray PR__[2009].pdf",
     "score": 5,
-    "date": ""
+    "date": "2025-09-07 20:24:26"
   },
   {
     "category": "模拟电路",
     "name": "CMOS Analog Circuit Design(Third Edition)_[英文]_[美]Allen PE, Holberg DR_[2012].pdf",
     "score": 5,
-    "date": ""
+    "date": "2025-09-07 20:24:26"
   },
   {
     "category": "模拟电路",
