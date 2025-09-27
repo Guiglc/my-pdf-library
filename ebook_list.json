@@ -1,218 +1,224 @@
 [
   {
-    "category": "Design & Layout",
+    "category": "01 微电子教材",
+    "name": "CMOS Electronics - how it works, how it fails_[英文]_[美]Segura J, Hawkins CF_[2004].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "01 微电子教材",
+    "name": "CMOS VLSI Design - A Circuits and Systems Perspective(Fourth Edition)_[英文]_[美]Weste NHE, Harris DM_[2011].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "01 微电子教材",
+    "name": "Fundamentals of Microelectronics(Second Edition)_[英文]_[美]Razavi B_[2014].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "01 微电子教材",
+    "name": "Fundamentals of Modern VLSI Devices (Third Edition)_[英文]_[英]Taur Y, Ning TH_[2022].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "01 微电子教材",
+    "name": "Integrated Microelectronic Devices (First Edition)_[英文]_[美]Alamo JA d_[2018].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "01 微电子教材",
+    "name": "Low-Power CMOS VLSI Circuit Design_[英文]_[美]Roy K, Prasad S_[2000].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "01 微电子教材",
+    "name": "Microelectronic Circuit Design (Fifth Edition)_[英文]_[美]Jaeger RC, Blalock TN_[2016].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "01 微电子教材",
+    "name": "Microelectronic Circuits (Seventh Edition)_[英文]_[美]Sedra AS, Smith KC_[2015].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "01 微电子教材",
+    "name": "Microelectronic Circuits - Analysis and Design (2nd Edition)_[英文]_[美]Rashid MH_[2011].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "02 Design & Layout",
     "name": "Fundamentals of Layout Design for Electronic Circuits_[英文]_[欧]Lienig J, Scheible J_[2020].pdf",
     "score": 5,
-    "date": "2025-09-01 23:16:25"
+    "date": ""
   },
   {
-    "category": "Display IC",
-    "name": "Addressing Techniques of Liquid Crystal Displays_[英文]_[美]Ruckmongathan TN_[2015].pdf",
+    "category": "03 模拟电路",
+    "name": "Analog Design Essentials_[英文]_[欧]Sansen WMC_[2008].pdf",
     "score": 5,
-    "date": "2025-09-01 23:16:25"
+    "date": ""
   },
   {
-    "category": "Display IC",
-    "name": "Liquid Crystal Display Drivers Techniques and Circuits_[英文]_[欧]Cristaldi DJR, Pennisi S, Pulvirenti F_[2009].pdf",
+    "category": "03 模拟电路",
+    "name": "Analysis and Design of Analog Integrated Circuits (5th Edition)_[英文]_[美]Gray PR__[2009].pdf",
     "score": 5,
-    "date": "2025-09-09 22:13:32"
+    "date": ""
   },
   {
-    "category": "其他",
-    "name": "Introduction to Semiconductor Manufacturing Technology(Second Edition)_[英文]_[美]Xiao H_[2012].pdf",
+    "category": "03 模拟电路",
+    "name": "CMOS Analog Circuit Design(Third Edition)_[英文]_[美]Allen PE, Holberg DR_[2012].pdf",
     "score": 5,
-    "date": "2025-09-01 23:16:25"
+    "date": ""
   },
   {
-    "category": "存储专著",
-    "name": "Circuit-Technology Co-Optimization of SRAM Design in Advanced CMOS Nodes_[英文]_[欧]Liu H-H, Catthoor F_[2025].pdf",
+    "category": "03 模拟电路",
+    "name": "Design of Analog CMOS Integrated Circuits (Second Edition)_[英文]_[美]Razavi Behzad__[2017].pdf",
     "score": 5,
-    "date": "2025-09-01 23:16:25"
+    "date": ""
   },
   {
-    "category": "存储专著",
-    "name": "CMOS SRAM Circuit Design and Parametric Test in Nano-Scaled Technologies_[英文]_[欧]Pavlov A, Sachdev M_[2008].pdf",
+    "category": "04 数字电路",
+    "name": "Digital Fundamentals(11th Edition)_[英文]_[加]Floyd TL_[2015].pdf",
     "score": 5,
-    "date": "2025-09-01 23:16:25"
+    "date": ""
   },
   {
-    "category": "存储专著",
+    "category": "05 存储专著",
     "name": "High Performance Memory Testing_[英文]_[欧]Adams RD_[2003].pdf",
     "score": 5,
-    "date": "2025-09-01 23:16:25"
+    "date": ""
   },
   {
-    "category": "存储专著",
-    "name": "Nanometer Variation-Tolerant SRAM_[英文]_[欧]Abu-Rahma MH, Anis M_[2013].pdf",
-    "score": 5,
-    "date": "2025-09-01 23:16:25"
-  },
-  {
-    "category": "存储专著",
-    "name": "Robust SRAM Designs and Analysis_[英文]_[欧]Singh J, Mohanty SP, Pradhan DK_[2013].pdf",
-    "score": 5,
-    "date": "2025-09-01 23:16:25"
-  },
-  {
-    "category": "存储专著",
+    "category": "05 存储专著",
     "name": "Semiconductor Memories - Technology, Testing, and Reliability_[英文]_[美]Sharma AK_[1997].pdf",
     "score": 5,
-    "date": "2025-09-01 23:16:25"
+    "date": ""
   },
   {
-    "category": "存储专著",
+    "category": "05 存储专著",
     "name": "Semiconductor Memory Devices and Circuits (First Edition)_[英文]_[美]Yu S_[2022].pdf",
     "score": 5,
-    "date": "2025-09-01 23:16:25"
+    "date": ""
   },
   {
-    "category": "存储专著",
+    "category": "05 存储专著",
     "name": "Variation-Aware Advanced CMOS Devices and SRAM_[英文]_[欧]Shin C_[2016].pdf",
     "score": 5,
-    "date": "2025-09-10 01:46:15"
+    "date": ""
   },
   {
-    "category": "学位论文",
-    "name": "Advanced MOSFET Designs and Implications for SRAM Scaling.pdf",
+    "category": "06 SRAM 专著",
+    "name": "Circuit-Technology Co-Optimization of SRAM Design in Advanced CMOS Nodes_[英文]_[欧]Liu H-H, Catthoor F_[2025].pdf",
     "score": 5,
-    "date": "2025-09-01 23:16:25"
+    "date": ""
   },
   {
-    "category": "学位论文",
-    "name": "Large-Scale Variability Characterization and Robust Design Techniques for Nanoscale SRAM.pdf",
+    "category": "06 SRAM 专著",
+    "name": "CMOS SRAM Circuit Design and Parametric Test in Nano-Scaled Technologies_[英文]_[欧]Pavlov A, Sachdev M_[2008].pdf",
     "score": 5,
-    "date": "2025-09-01 23:16:25"
+    "date": ""
   },
   {
-    "category": "封装",
+    "category": "06 SRAM 专著",
+    "name": "Low Power and Reliable SRAM Memory Cell and Array Design_[英文]_[美]Ishibashi K, Osada K_[2011].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "06 SRAM 专著",
+    "name": "Nanometer Variation-Tolerant SRAM_[英文]_[欧]Abu-Rahma MH, Anis M_[2013].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "06 SRAM 专著",
+    "name": "Robust SRAM Designs and Analysis_[英文]_[欧]Singh J, Mohanty SP, Pradhan DK_[2013].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "07 Display IC",
+    "name": "Addressing Techniques of Liquid Crystal Displays_[英文]_[美]Ruckmongathan TN_[2015].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "07 Display IC",
+    "name": "Liquid Crystal Display Drivers Techniques and Circuits_[英文]_[欧]Cristaldi DJR, Pennisi S, Pulvirenti F_[2009].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "08 封装",
     "name": "Advanced Flip Chip Packaging_[英文]_[美]Tong HM, Lai YS, Wong CP_[2013].pdf",
     "score": 5,
     "date": ""
   },
   {
-    "category": "封装",
+    "category": "08 封装",
     "name": "Chip-On-Glass (COG) for LCD modules - NXP.pdf",
     "score": 5,
     "date": ""
   },
   {
-    "category": "封装",
+    "category": "08 封装",
     "name": "Chip-on-Glass LCD Driver Technology - NXP.pdf",
     "score": 5,
     "date": ""
   },
   {
-    "category": "封装",
+    "category": "08 封装",
     "name": "Materials for Advanced Packaging (2nd Edition)_[英文]_[欧]Lu D, Wong CP_[2017].pdf",
     "score": 5,
-    "date": "2025-09-01 23:16:25"
+    "date": ""
   },
   {
-    "category": "微电子教材",
-    "name": "CMOS Electronics - how it works, how it fails_[英文]_[美]Segura J, Hawkins CF_[2004].pdf",
+    "category": "09 学位论文",
+    "name": "Advanced MOSFET Designs and Implications for SRAM Scaling.pdf",
     "score": 5,
-    "date": "2025-09-01 23:16:25"
+    "date": ""
   },
   {
-    "category": "微电子教材",
-    "name": "CMOS VLSI Design - A Circuits and Systems Perspective(Fourth Edition)_[英文]_[美]Weste NHE, Harris DM_[2011].pdf",
+    "category": "09 学位论文",
+    "name": "Large-Scale Variability Characterization and Robust Design Techniques for Nanoscale SRAM.pdf",
     "score": 5,
-    "date": "2025-09-01 23:16:25"
+    "date": ""
   },
   {
-    "category": "微电子教材",
-    "name": "Fundamentals of Microelectronics(Second Edition)_[英文]_[美]Razavi B_[2014].pdf",
-    "score": 5,
-    "date": "2025-09-01 23:16:25"
-  },
-  {
-    "category": "微电子教材",
-    "name": "Fundamentals of Modern VLSI Devices (Third Edition)_[英文]_[英]Taur Y, Ning TH_[2022].pdf",
-    "score": 5,
-    "date": "2025-09-09 22:13:32"
-  },
-  {
-    "category": "微电子教材",
-    "name": "Integrated Microelectronic Devices (First Edition)_[英文]_[美]Alamo JA d_[2018].pdf",
-    "score": 5,
-    "date": "2025-09-01 23:16:25"
-  },
-  {
-    "category": "微电子教材",
-    "name": "Low-Power CMOS VLSI Circuit Design_[英文]_[美]Roy K, Prasad S_[2000].pdf",
-    "score": 5,
-    "date": "2025-09-01 23:16:25"
-  },
-  {
-    "category": "微电子教材",
-    "name": "Microelectronic Circuit Design (Fifth Edition)_[英文]_[美]Jaeger RC, Blalock TN_[2016].pdf",
-    "score": 5,
-    "date": "2025-09-01 23:16:25"
-  },
-  {
-    "category": "微电子教材",
-    "name": "Microelectronic Circuits (Seventh Edition)_[英文]_[美]Sedra AS, Smith KC_[2015].pdf",
-    "score": 5,
-    "date": "2025-09-01 23:16:25"
-  },
-  {
-    "category": "微电子教材",
-    "name": "Microelectronic Circuits - Analysis and Design (2nd Edition)_[英文]_[美]Rashid MH_[2011].pdf",
-    "score": 5,
-    "date": "2025-09-01 23:16:25"
-  },
-  {
-    "category": "数字电路",
-    "name": "Digital Fundamentals(11th Edition)_[英文]_[加]Floyd TL_[2015].pdf",
-    "score": 5,
-    "date": "2025-09-01 23:16:25"
-  },
-  {
-    "category": "模拟电路",
-    "name": "Analog Design Essentials_[英文]_[欧]Sansen WMC_[2008].pdf",
-    "score": 5,
-    "date": "2025-09-01 23:16:25"
-  },
-  {
-    "category": "模拟电路",
-    "name": "Analysis and Design of Analog Integrated Circuits (5th Edition)_[英文]_[美]Gray PR__[2009].pdf",
-    "score": 5,
-    "date": "2025-09-07 20:24:26"
-  },
-  {
-    "category": "模拟电路",
-    "name": "CMOS Analog Circuit Design(Third Edition)_[英文]_[美]Allen PE, Holberg DR_[2012].pdf",
-    "score": 5,
-    "date": "2025-09-07 20:24:26"
-  },
-  {
-    "category": "模拟电路",
-    "name": "Design of Analog CMOS Integrated Circuits (Second Edition)_[英文]_[美]Razavi Behzad__[2017].pdf",
-    "score": 5,
-    "date": "2025-09-01 23:16:25"
-  },
-  {
-    "category": "论文",
+    "category": "10 论文",
     "name": "A Fast Modular Method for True Variation-Aware Separatrix Tracing in Nanoscaled SRAMs.pdf",
     "score": 5,
-    "date": "2025-09-02 00:34:44"
+    "date": ""
   },
   {
-    "category": "论文",
+    "category": "10 论文",
     "name": "SRAM Dynamic Stability Theory, Variability and Analysis.pdf",
     "score": 5,
     "date": ""
   },
   {
-    "category": "论文",
+    "category": "10 论文",
     "name": "Static Noise Margin Variation for Sub-threshold SRAM in 65-nm CMOS.pdf",
     "score": 5,
-    "date": "2025-09-02 07:00:48"
+    "date": ""
   },
   {
-    "category": "论文",
+    "category": "10 论文",
     "name": "Worst-case static noise margin criteria for logic circuits and their mathematical equivalence.pdf",
     "score": 5,
-    "date": "2025-09-02 00:34:44"
+    "date": ""
+  },
+  {
+    "category": "11 其他",
+    "name": "Introduction to Semiconductor Manufacturing Technology(Second Edition)_[英文]_[美]Xiao H_[2012].pdf",
+    "score": 5,
+    "date": ""
   }
 ]
