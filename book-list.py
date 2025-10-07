@@ -2,6 +2,8 @@ import os
 import json
 import subprocess
 from datetime import datetime
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 
 # 配置
 LOCAL_PDF_PATH = r"E:\Programming\Project\ebook-pdf"  # PDF 仓库本地路径

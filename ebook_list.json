@@ -151,7 +151,19 @@
   },
   {
     "category": "07 Display IC",
+    "name": "AN10170 - Design guidelines for COG modules with NXP monochrome LCD drivers.pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "07 Display IC",
     "name": "Liquid Crystal Display Drivers Techniques and Circuits_[英文]_[欧]Cristaldi DJR, Pennisi S, Pulvirenti F_[2009].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "07 Display IC",
+    "name": "PCF2119x LCD controllersdrivers.pdf",
     "score": 5,
     "date": ""
   },
@@ -218,6 +230,18 @@
   {
     "category": "11 其他",
     "name": "Introduction to Semiconductor Manufacturing Technology(Second Edition)_[英文]_[美]Xiao H_[2012].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "11 其他",
+    "name": "散度，旋度，梯度，释义图解版_[中文]_[美]H.M. 斯彻 (H.M. Schey) 著 李维伟 译_[2015].pdf",
+    "score": 5,
+    "date": ""
+  },
+  {
+    "category": "11 其他",
+    "name": "麦克斯韦方程直观_[中文]_[美]丹尼尔·弗雷希 著 唐璐 刘波峰 译_[2014].pdf",
     "score": 5,
     "date": ""
   }
